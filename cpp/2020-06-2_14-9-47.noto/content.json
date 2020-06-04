@@ -1,0 +1,215 @@
+{
+  "lines": [
+    {
+      "id": "EE00CE6B-5819-4777-A02B-9AC5823EC575",
+      "content": "gcc\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "B98E15B5-AB5B-40D2-A88B-24E32E97F699",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "095E89A2-8BF8-4551-885C-88942C302F1D",
+      "content": "## doc\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "7A628D30-3EF9-46BF-885C-AD946A7F8E3D",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 0.625,
+          "type": "image",
+          "name": "gcc_arch.jpg",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "A7F3CBCE-F312-41B6-9065-5E47EBED036D",
+      "content": "\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "1B6D08C3-E744-4EC5-9D17-66B57C8B3CAC",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "BC18E401-FCE1-4002-8F1F-86BCAF3CA5E7",
+      "content": "## ar\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "BC18E401-4CED-46A7-B068-4E3B5C8E89C2",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 0.625,
+          "content": "swift",
+          "caption": {
+            "lines": [
+              {
+                "id": "C9B9D889-8DE4-49DD-975E-07F2EEFFD285",
+                "content": "$ ar -crs libserde.a encode.o decode.o",
+                "styles": [],
+                "attachments": []
+              }
+            ]
+          },
+          "type": "code",
+          "name": "E1CB22C5-0274-4EE5-BD6D-194E45CA03C6.",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "FC1A6832-8753-4522-9D9F-D5D5F11D2154",
+      "content": "-c\t\tcreate\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "2855B0DE-03CC-458D-AA9D-E5E76B4AF97E",
+      "content": "-r\t\treplace\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "BF08649F-451E-452A-B374-815BCDF9747E",
+      "content": "-s\t\tindex，create an index of the files inside the library file\t\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "53A5A5CD-3329-4CC4-8370-24145FEB006B",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 0.625,
+          "content": "swift",
+          "caption": {
+            "lines": [
+              {
+                "id": "625CDF52-2077-422D-AED2-96D1335AEC53",
+                "content": "$ ar -t libserde.a\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "2CF9BB3B-C8F7-4AA0-9270-DA42D74EE7B0",
+                "content": "encode.o\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "07F32444-90AD-427E-A621-4AD619309146",
+                "content": "decode.o",
+                "styles": [],
+                "attachments": []
+              }
+            ]
+          },
+          "type": "code",
+          "name": "E1CB22C5-0274-4EE5-BD6D-194E45CA03C6. 2",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "849A29D1-DE36-459B-943A-1B55F5DE4647",
+      "content": "-t\t\tlist modules\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "7C94BF5F-6ED9-47E4-BBDC-EB2574BCD55B",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "68B14A42-0314-4381-A14A-C313425005D5",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "C3DB4EF3-3CC8-46C1-BED6-0732C7ADFBC9",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "CEB55443-170E-4726-9FBD-FF15F70DE20D",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "FE9BC334-4DB8-40E0-9001-4B01B90EAD6F",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6C383D98-E1C4-4D5E-9AC9-E38DF146F87F",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "BE6CB275-0C9D-4DF4-86EA-F976C6ADB21D",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "56927349-5F27-4A32-A3A3-CCF287C806AE",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "AD4F6217-8557-4487-A631-E60AA8AB3002",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "3D6E8033-904C-44B3-802B-A5042DFEC4F0",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "161B1026-649F-45B4-BC65-C6BD57711D82",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "5E992E4A-34B2-4A64-96DE-301230E83F83",
+      "content": "",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}

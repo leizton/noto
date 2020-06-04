@@ -7,7 +7,7 @@
       "paragraphType": "body",
       "attachments": [
         {
-          "percentageWidth": 1,
+          "percentageWidth": 0.625,
           "content": "swift",
           "caption": {
             "lines": [
