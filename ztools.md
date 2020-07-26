@@ -36,11 +36,11 @@
       "paragraphType": "body",
       "attachments": [
         {
-          "percentageWidth": 0.625,
+          "percentageWidth": 0.43,
           "type": "image",
           "name": "arch_of_network.jpg",
           "location": 0
         }
       ]
     },
-```  
+```
