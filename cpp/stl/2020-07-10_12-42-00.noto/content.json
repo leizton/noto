@@ -1,0 +1,210 @@
+{
+  "lines": [
+    {
+      "id": "2ABFAADA-C3A4-4FFE-A7AE-6FEAC17722C2",
+      "content": "string_view\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "12741004-7B1E-4F75-8F69-5DF88BB3E15D",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6B4BF910-8BC3-40AB-BC58-BEA999416709",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "4ED1DA08-B9AF-4BC3-ADAB-E597A4372FC9",
+      "content": "￼",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 0.625,
+          "content": "cpp",
+          "caption": {
+            "lines": [
+              {
+                "id": "40280721-0503-40AD-AFCE-9CF323761691",
+                "content": "using string_view = basic_string_view<char>\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "207A06E1-923D-4B27-818E-07940F7D62D0",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "3ADF2C76-7013-4038-8BDD-CFA9FE0C59F4",
+                "content": "\/\/@sym basic_string_view\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "446D7FC2-A0A8-46B0-8901-F88CFC80E868",
+                "content": "\/\/-- char_traits<char>定义了一些字符串处理的静态函数，如move\/copy，move用memmove实现，copy用memcpy实现\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "8238D57C-4B28-4D6B-9B24-3E91C1E93CCE",
+                "content": "template<class CharT, class Traits=char_traits<CharT>>\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "BABF31C1-30F8-4776-8DDA-C320D93963E0",
+                "content": "class basic_string_view {\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "B4123B6D-0A5C-4656-B3DA-D055C947DDB8",
+                "content": "  using value_type = CharT\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "CDC7E9C6-5111-4CEB-9E9E-EE5D9F92133E",
+                "content": "  using size_type = size_t\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "3B90B620-59CC-433C-99AF-399D87C39FED",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "FD381240-4ADD-477A-95D3-EFD95FCA63B9",
+                "content": "  const value_type*  data_\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "BA48A612-A054-4C12-83B8-E09A3A14ECF9",
+                "content": "  size_type          size_\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "649283A5-8769-49C5-AEE8-09946483C6B2",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "87B6BE29-1CAB-44EC-A3D4-D8036E1F667B",
+                "content": "  \/\/ 构造\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "609ECCDB-470B-4DF3-A7EB-53F92F8950C5",
+                "content": "  basic_string_view() {\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "7F412CBF-42B5-4CBE-A2DC-7798FDA07D6A",
+                "content": "    data_(nullptr), size_(0)\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "BC8ABB16-6433-4B17-9552-313203209AE2",
+                "content": "  }\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "6026C324-DB8A-45C2-8A6B-59055BF26B85",
+                "content": "  basic_string_view(const CharT* s, size_type len) {\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "91EA2D18-0353-4C65-8ECE-6216225CAB5A",
+                "content": "    data_(s), size_(len)\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "9D79B5E3-E385-4C9C-ADED-2275EBDFA818",
+                "content": "  }\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "42ED7CB2-1E46-4E79-9019-BA2BF6A6CF29",
+                "content": "  basic_string_view(const basic_string_view&) = default\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "C2C90A99-47B2-48C8-8A11-57F66B596DC3",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "1D84C6F5-856A-43F5-AAE6-04E664B61CEB",
+                "content": "  \/\/ substr时间空间都是O(1)\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "D95EAB51-C0C6-41AC-AB33-F2995113BE4C",
+                "content": "  basic_string_view substr(size_type pos, size_type n) const {\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "3BA399F3-0350-433E-BEEE-2A4387543E9D",
+                "content": "    return pos > size_\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "9545B736-D777-44B8-B47A-929625D530C4",
+                "content": "      ? (__throw_out_of_range(\"string_view::substr\"), basic_string_view())\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "011E8178-8FEB-48CC-AF1F-A8F8A53D3479",
+                "content": "      : basic_string_view(data_+pos, min(n, size_-pos))\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "25CEEE83-D9CC-4035-AF59-85B4174D62FD",
+                "content": "  }\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "2D608474-01F8-4823-8515-F061454E92DD",
+                "content": "};",
+                "styles": [],
+                "attachments": []
+              }
+            ]
+          },
+          "type": "code",
+          "name": "E1CB22C5-0274-4EE5-BD6D-194E45CA03C6.",
+          "location": 0
+        }
+      ]
+    }
+  ]
+}

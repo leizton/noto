@@ -1,0 +1,35 @@
+{
+  "lines": [
+    {
+      "id": "5FAA5450-9EA4-409D-B80B-CD4526D09FB3",
+      "content": "fork  vfork  clone\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "8A507AB0-4468-4602-95F9-31486B840B89",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6158B227-2B5E-4614-B600-8E5B16F21D72",
+      "content": "fork\t\t创建父进程的完整副本，包括资源\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "F1E15C3D-7755-4145-A380-F62BD7BC639A",
+      "content": "vfork\t\t和父进程共享数据段\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "20F971CF-39FE-4CF7-BCEE-E06EF4AD0430",
+      "content": "clone\t\t创建线程",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}

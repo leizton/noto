@@ -1,0 +1,205 @@
+{
+  "lines": [
+    {
+      "id": "92DDB888-69BE-4845-8B0F-DCBF7D6DAA0D",
+      "content": "debug & shell\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "7C1239AC-407E-4283-95F8-8440EDAE90C2",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A67E8CE4-4011-41F2-AB4A-F9916D812799",
+      "content": "### shell\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A1384189-AD45-4A9A-9A5C-08A3552F0E5E",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 0.625,
+          "content": "swift",
+          "caption": {
+            "lines": [
+              {
+                "id": "4A0AA15F-729F-4616-BE01-50EFE24275B4",
+                "content": "curr=`date +\"%Y%m%d_%H%M%S\"`\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "79FE0AB1-829A-4ED6-9026-306655B9ADC6",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "26F20933-A469-489C-BCAE-209768CABF8A",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "3BF27DDA-2ED2-4627-B3D2-30DA1F6DB18C",
+                "content": "grep -hr 'text' .      # -h 不显示文件名\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "553F4AF5-9410-4F4C-8B7A-F3F7FF6E7B7B",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "BAB63824-A40C-41E2-B8A3-A6BE54B04C9B",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "09D4D28C-1733-4FDE-99AC-F1B09B93B1E1",
+                "content": "ps -eo pid,lstart,etime,cmd | grep\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "0E875857-A4EC-4760-B716-1A37B93FE5D9",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "083C7658-F7C0-49D3-9276-FAF35C647B9D",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "8F79635F-F033-4EA0-B282-C6839A28C1EC",
+                "content": "pstack $pid\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "FAF0D39D-4B51-40F0-96E3-6EF5E214F4BD",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "C7A906A1-760A-4D9E-A214-AA3A75686E23",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "119429CB-F29C-4A58-A17F-7A8DD90C59C5",
+                "content": "sudo perf top -p $pid\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "03E67999-AAED-4C41-A7FC-F52ACF1695C3",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "C0E54B07-401C-4F4D-BB1B-6F414135A136",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "A261ED9A-0523-4F3F-BA42-6920300E6BDA",
+                "content": "awk -F ' ' '{print $3}'    # 适用于多个空格\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "C3EBF3E5-711B-4A3C-8B12-90CB7D129502",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "820F872D-CA2C-4A01-854E-498268D173E5",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "DFA1F6B1-BA43-4535-BD3B-F794A3C7E68F",
+                "content": "find . -name '*log*' | xargs grep -n 'pat'\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "7B5D115F-7C08-4900-9471-D621739B9C5F",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "9F30447B-2D99-4FE7-8FAE-F9FA724BB935",
+                "content": "awk -F '' '{sum+=$1}END{print sum\/NR}'\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "C4E77AFB-24D0-44A2-86EB-E00CFFAFFA31",
+                "content": "awk -F '' '$1 > 400{print $1}'\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "7DEEF4EE-2EF9-4CD3-93E9-61AF8BCFB77C",
+                "content": "\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "14ADFCF9-632B-4EC5-A20A-127E88527A15",
+                "content": "sort -n  # 数值排序\n",
+                "styles": [],
+                "attachments": []
+              },
+              {
+                "id": "EBBE4E9E-8BF9-44E5-93B7-294C802D04EC",
+                "content": "sort -v  # 逆序",
+                "styles": [],
+                "attachments": []
+              }
+            ]
+          },
+          "type": "code",
+          "name": "E1CB22C5-0274-4EE5-BD6D-194E45CA03C6. 3",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "21BD57CB-6AF8-44C2-8DF0-680F20657670",
+      "content": "\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "F959B9AB-ADA5-4D99-BA1D-BB4279BC1C4D",
+      "content": "",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}

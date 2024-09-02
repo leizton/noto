@@ -1,0 +1,193 @@
+{
+  "lines": [
+    {
+      "id": "6146E5DF-1F77-4DF1-AEF4-9D94963A3007",
+      "content": "mac_details\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "E4A916E1-1412-4C05-8332-9EC08EF8F19E",
+      "content": "\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "C3D048D2-6063-4C35-ADE7-F5B016427A33",
+      "content": "#### details\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "C7A0913B-5F26-43DB-A9F0-588BAA2FB7DD",
+      "content": "defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "2AAA87FF-6023-497B-B579-FAFCE98B8696",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "5D695DFB-5B19-4514-8950-AABA7E12A3C4",
+      "content": "#### switchrex\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A74A4F0C-6639-4B8C-9CC1-ACC9D53C5A63",
+      "content": "创建一个新用户，登录新用户后设置3840x2160，保存重启，可以打开1920x1080 hidpi\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B293C0E5-E8C4-4753-804D-F726E24C044A",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "1A847B6A-BADB-4626-A9AC-DD81C185CCDD",
+      "content": "#### 允许身份不明的开发者的应用\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "372F0AD1-FAA8-4FCA-A65D-E41773C2AEDC",
+      "content": "sudo spctl --master-disable\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "7CFC79DC-5895-4BA0-A9B6-174197F593D2",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "1933AC4F-0614-403B-8052-0EC2BCAD0DB2",
+      "content": "#### vscode\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "EBB53624-247C-4D70-84AB-30A8BB2ADE20",
+      "content": "light_vs.json        a31515 -> 098658\t\t0000ff -> 1035e0\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "0AE887A2-F2A1-4D6C-9185-1DE590D84155",
+      "content": "light_plus.json    795e26 -> a31515\t\tAF00DB -> 1035e0\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "07A24F16-FC1A-4A64-8DBD-0DFC45D47A0A",
+      "content": "struct\n",
+      "styles": [
+        {
+          "type": "highlight",
+          "range": [
+            0,
+            6
+          ],
+          "color": "#50b6ff"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "B632127A-0D74-4472-B313-294475F18A60",
+      "content": "method\n",
+      "styles": [
+        {
+          "type": "highlight",
+          "range": [
+            0,
+            6
+          ],
+          "color": "#f5685b"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "16F8E023-4934-4B54-B148-60D887C21592",
+      "content": "field\n",
+      "styles": [
+        {
+          "type": "highlight",
+          "range": [
+            5,
+            6
+          ],
+          "color": "#fa9757"
+        },
+        {
+          "type": "highlight",
+          "range": [
+            0,
+            5
+          ],
+          "color": "#66c6c2"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "B6570D83-53B2-4BB2-B812-3CC5AA300ECB",
+      "content": "call()\n",
+      "styles": [
+        {
+          "type": "highlight",
+          "range": [
+            0,
+            6
+          ],
+          "color": "#fa9757"
+        },
+        {
+          "type": "highlight",
+          "range": [
+            6,
+            6
+          ],
+          "color": "#66c6c2"
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "8CB473B9-282A-4573-AEB9-212381D563CA",
+      "content": "background_color\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6988504F-7667-41DC-8469-6228A8591BCB",
+      "content": "blue\t\t5eadddd7\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "863D8213-97E9-49CB-A651-17774DFC351D",
+      "content": "yellow\t\tebc167d0\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "894348BB-C009-41A8-98BF-5C75C61C47BC",
+      "content": "red\t\t\tee8985d0",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "lines": [
+    {
+      "id": "95EFFD0F-2F68-4935-AA5F-2E5942B8C55D",
+      "content": "details\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "9418BDDA-B767-43F0-B7A7-BE5D8F18808A",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "80DB3A74-1CF7-4A3A-8AA7-B3FD02FA2BC2",
+      "content": "## mac\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "AA2852B7-0D08-41BF-84BA-927F7D44DCD0",
+      "content": "ctrl+cmd+f\t\t\t窗口全屏\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "56FDEC5A-287D-4CD6-ADC6-C0386592290C",
+      "content": "#### 查找\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "8F364C95-BB7D-430B-9D4C-EDB6A09B7C8D",
+      "content": "ag\t\t\t\t\t\t普通文本，忽略大小写，小写可以是大写，大写不会是小写\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "C9433F08-AA6A-440A-B83E-15BC05F982A0",
+      "content": "agi\t\t\t\t\t\t普通文本，大小写敏感\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "AE4DB570-B9D3-4371-96C6-A6D419D07DC7",
+      "content": "agw\t\t\t\t\t单词\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "19FA220E-24C0-4CA9-9E8A-1EEBD6F4B9E6",
+      "content": "agwi\t\t\t\t\t单词，大小写敏感\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "9D205B8E-45D9-402C-8B33-FEFA7FFC0A08",
+      "content": "agr\t\t\t\t\t\t正则\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "F330FD83-5A3E-4823-92DE-0BD2528E449A",
+      "content": "agf\t\t\t\t\t\t正则 + 指定文件\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "61128DAE-CA16-4FEA-861A-99E2E306C8AB",
+      "content": "agclz\t\t\t\t\t类声明\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "E00564FF-92FA-4E0E-9995-B8BB087D6972",
+      "content": "agd\t\t\t\t\t某个基类的派生类\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "E9611005-B9DD-48FB-947B-8DF5B9F0CFB7",
+      "content": "agm\t\t\t\t\tobj.method()\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "93159EF1-650F-432A-B1BC-83B3B2C89787",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "4062D237-C4CC-4CF5-B099-70C07E2FBBA3",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "21008053-4ED8-4BD4-BA42-59F7FF794A7F",
+      "content": "## Git\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B2AFD5EB-1154-4476-B781-9BA7E737ABB6",
+      "content": "gitdiff\t\t\t\t\tgit  diff  $another_branch  $file\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "768E13E0-BAE9-4979-BBB6-552E6D15BB5C",
+      "content": "gitl2\t\t\t\t\tgitl2  $file  $n\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "27321F47-C97F-48F6-8AB5-8BFACCC3F70E",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "160391EC-9BB8-4F85-9A6F-FB47336AF66E",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A6F4C40D-E723-46F9-958B-152B11FD2524",
+      "content": "## vscode\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "BBABDC02-16D5-4876-8963-51A0A1E1E0EF",
+      "content": "ctrl+W\t\t\t\t\t切换窗口\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "01A0D5CC-BDD6-4676-9307-F700C9E8689B",
+      "content": "ctrl+cmd+w\t\t\t切换编辑器内的tab\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "B75AA221-F0C9-4FA0-A959-9E0947049835",
+      "content": "render indent\t\t\t缩进参考线\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "DCE5B79B-785B-499F-9353-D1CF824CA262",
+      "content": "cmd+p\t\t\t\t显示所有命令\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "8C973F6A-4DA7-4162-BC56-B33E191BFCCC",
+      "content": "cmd+f12\t\t\t\t查找当前工作区的符号\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "22061EDE-67D7-4B2D-99DE-99142F284D55",
+      "content": "cmd+t\t\t\t\t\t查找当前文件的函数\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "CB02174A-2E49-47CB-9FC1-9AD331ADA5E0",
+      "content": "alt+cmd+l\t\t\t\t格式化代码\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "FBEF395C-BA1C-4766-8737-F18630A89744",
+      "content": "cmd+shift+\\\t\t\t括号跳转\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "E36FEAC2-5613-4537-92E3-507E6B120E55",
+      "content": "#### 命令\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A6D27E8B-9A34-4211-9B57-202809A0F27F",
+      "content": "> blame\t\t\t\tGitLens: Toggle File Blame，blame当前文件\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A258F134-65D9-47DB-9680-1834723E0CB1",
+      "content": "#### 书签\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "8861631F-F45B-4797-ABC4-2599A06FAEB7",
+      "content": "F1\t\t\t\t\t\tmark\/unmark 书签\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "8A908A80-F2CD-43B8-8861-6CDECE40BBBC",
+      "content": "F2\t\t\t\t\t\tgoto prev 书签\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "D11F901E-636E-402F-962F-797CC15739B8",
+      "content": "F3\t\t\t\t\t\tgoto next 书签\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "FECC8CEF-94EF-4269-AC7F-4A91BD19757B",
+      "content": "F4\t\t\t\t\t\t显示书签列表\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "272E8F5C-C5A7-4118-AB90-F576D0774C3A",
+      "content": "#### 扩展\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "1247CA1D-0E4A-4F92-B632-7E575BA19469",
+      "content": "cmd+shift+x\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "EE43E21D-DB0F-4C9E-865E-464329ED84BC",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "CDC5EBBB-B326-475A-83E5-03B47CDDE1FC",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "E4C1BC0B-E9E5-4CAA-B7E9-3627F3BDC123",
+      "content": "## vim\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "758DF565-829B-48BF-8FE8-C4B5D7EA8896",
+      "content": "v+e\t\t\t\t\t选中单词\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "C7B81B65-65A3-4F86-92E2-1007C4174F45",
+      "content": "d\t\t\t\t\t\t剪切\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "5CD5C3CE-7024-4DE4-9CD7-C2ADF36C3BFB",
+      "content": "y\t\t\t\t\t\t复制\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B877F7E1-B1D2-434E-999B-52DCA2387D86",
+      "content": "p\t\t\t\t\t\t粘贴\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "537CD131-7FF4-4C5F-9A5C-9B2727AA2093",
+      "content": "d+$\t\t\t\t\t删除从光标到行尾\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "00D43CA9-AC64-4B41-9734-C237B1CFF8D5",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "752444DD-7EDC-4870-9E2C-6F674BC83898",
+      "content": ":echo @%\t\t\t\t当前文件路径\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "4CC6587B-A7BC-4D51-9AD1-A86CF9A68257",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "393843DA-CD4B-4C36-9A97-6EEAB4ED3262",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "07506F6E-797C-421A-BF67-10219D5D96E7",
+      "content": "## iterm2\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6D3837A3-B1BF-4C12-900B-2C5EE887018D",
+      "content": "cmd+k\t\t\t\t清空屏幕buffer\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "C2409857-8D70-406D-B4EF-01E6CB044B6C",
+      "content": "ctrl+l\t\t\t\t\tclear lines(Bash command)\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "CE345A8D-9E96-4DD1-9138-F41B7A5FB63A",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "160B27DD-61E9-45C4-827D-0231F4A2AB3C",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "D3F5A024-D730-4AB2-AA2A-99AE6BA0D160",
+      "content": "## read code\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "118F6184-9B35-4891-A683-53F5765B7D4E",
+      "content": "@class\t\t\t\tclass声明位置，例如 `@class __shared_ptr`\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "D060553D-3DD7-4487-97AE-C759B38C1F64",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "FD5C1CD3-9BB3-49AB-99EA-2DE3DBE22DA2",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6BDEA554-8B0E-467B-A550-B8BDA26FC012",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "783A8FEC-EA6E-4251-8422-C96980EF2EBA",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "7A34A416-8740-4035-A83E-D20003A8F0A0",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "FE0CA507-3903-4D05-A953-75DC10E7BDA2",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "1E0345A7-0747-48A4-BBB5-2A8F1838579A",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "58DCB2A8-6F90-42A9-94E0-1DD6A701FEEC",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "1FB523BA-BAF7-4AAC-AABA-6E637090ECAF",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "910EA6C5-9EBB-4BE4-B733-338F605CE5AB",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B85673FD-2F57-433D-B06B-12F10CB0436F",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "2F98FCA9-B61F-4D00-A244-9405DBA18B6B",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "577F0B73-4B41-43B6-87BF-7F86B3B70F19",
+      "content": "",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}

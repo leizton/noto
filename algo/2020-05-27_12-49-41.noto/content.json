@@ -1,0 +1,236 @@
+{
+  "lines": [
+    {
+      "id": "5A76BF08-E003-4D47-81C0-41B18B3C198C",
+      "content": "视觉形成\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "991BE9CD-B34E-4B5E-8F2B-C4DAA4C058D0",
+      "content": "\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "46B45974-B953-4A16-80E8-1B5EFF6A2B05",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 1,
+          "content": "https:\/\/www.jneurosci.org\/content\/36\/49\/12368",
+          "type": "link",
+          "name": "16E6AD63-E738-4B8B-92EB-58AFEF0F58D6",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "9E8A319C-96D3-4481-A89A-F279D14EADE5",
+      "content": "Logan Chariker, Robert Shapley and Lai-Sang Young\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B26F8A83-3127-4131-B859-7D1504ABBFFA",
+      "content": "\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "828A022D-772F-4F77-8F86-1AB8670F4006",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "A3F9E992-1BB2-471B-8809-ECD6476083B2",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 1,
+          "content": "https:\/\/zhuanlan.zhihu.com\/p\/44178208",
+          "type": "link",
+          "name": "35D250DE-B3AD-4B28-AC09-D93180ACB302",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "6507A6D1-9BF7-4254-A00F-F3C45F86B66D",
+      "content": "如图2所示，一部分视野是由两眼所共享的，称作双目视界\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "47BC2DC6-B39B-480D-8968-0A518B5407AC",
+      "content": "左视野(left visual field)和右视野的融合\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "02F48F49-1FBE-4566-B508-C83091805B9A",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "47F723A5-21FB-487C-9BEA-540AD36AF10C",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "47D0E47C-5653-4D89-9F23-7E1580AEB9EA",
+      "content": "### concept\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "3109379C-DF5D-429B-9A47-8847C6F7CCF0",
+      "content": "V1\t\t\t\t\t\t\tprimary visual cortex\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "721B1D36-580F-440E-886B-10FB24484199",
+      "content": "layer-4Ca\t\t\t\t\tV1 layer 4C\u0002-alpha\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "1515EDD3-AA37-401F-89C7-D932A96A251C",
+      "content": "receptive field\t\t\t感受野\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "C2DD488D-4898-4CFE-A674-C33A1C1BD164",
+      "content": "HC, hypercolumn\t\t超列；某个像素在CNN中每层的输出值所构成的向量\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "5530E8C8-C56B-47C6-8F8B-78D586C6CE50",
+      "content": "\t\t\t\t\t\t\t@ref paper：Hypercolumns for Object Segmentation and Fine-grained Localization\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "6BA57065-F6C0-4DFA-99B9-0EBF2651043C",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "909933AD-679A-4663-9EF4-D6C19971FA3D",
+      "content": "### PQC\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "0FD825AA-52B1-414E-8967-875E37285AD7",
+      "content": "layer-4Ca receives inputs from LGN\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "84C49F98-1F2C-4064-B193-A4B9EE1D39EF",
+      "content": "30 个 LGN drive 3000 excitatory(E) and 1000 inhibitory(I) cortical neurons.  兴奋\/抑制神经元\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "CB2635B5-42FD-4480-9021-4E06364C5A4F",
+      "content": "V1 smoothes out the discrete set of orientations from LGN into a continuous map by recurrent E\/I neurons interaction\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "607EA34E-D745-46B0-9155-9089FFB8B16C",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "36EC1C58-9A84-46F7-A0DC-A8AFEAE8FC21",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "C6E6B099-B067-4894-B9FA-613B42EEA323",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "391175CC-1A58-4829-B414-B21DBB9528FC",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B1E2977A-F94A-4194-B2C1-196972B0BB4B",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "D82E87A2-0434-4CA7-95BE-8DDAB672607F",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "B620DCD8-4558-4286-87DF-84800231692B",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "911D4135-0CD1-417E-AD0B-BA31DCAD0738",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "AF881E7F-3CE5-4D5A-9481-866B6DC69666",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "8C0514A1-41F5-4558-94F7-A17F3B21ED6F",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "92BDCBCD-ED65-4E51-AF77-72E13EA95A72",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "09715215-EC5B-430F-B278-A32E14BE4D21",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "547DC27A-6D52-48BD-91BC-19440F4F7C69",
+      "content": "",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}

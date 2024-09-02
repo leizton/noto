@@ -1,0 +1,51 @@
+{
+  "lines": [
+    {
+      "id": "AA806E8B-C0A9-4FE0-9FAA-AA280CCE36CA",
+      "content": "graph computing\n",
+      "styles": [],
+      "paragraphType": "title",
+      "attachments": []
+    },
+    {
+      "id": "822F4F59-7BD3-4729-B3EC-5C7F71FE361D",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "51672010-D47A-4E8C-B892-954AB3C373EC",
+      "content": "### pregel\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": []
+    },
+    {
+      "id": "B307D266-62FF-4015-B5F1-CD411D749F35",
+      "content": "\n",
+      "styles": [],
+      "attachments": []
+    },
+    {
+      "id": "42B953F1-052A-4CE4-86D3-820F3BC6C07B",
+      "content": "￼\n",
+      "styles": [],
+      "paragraphType": "body",
+      "attachments": [
+        {
+          "percentageWidth": 1,
+          "content": "https:\/\/io-meter.com\/2018\/03\/23\/pregel-in-graphs\/",
+          "type": "link",
+          "name": "1D7665B3-E6DA-4B2C-A238-1B636A24B4AF",
+          "location": 0
+        }
+      ]
+    },
+    {
+      "id": "98A44DBB-8011-4ED1-B726-4F53C8BE28A5",
+      "content": "",
+      "styles": [],
+      "attachments": []
+    }
+  ]
+}
